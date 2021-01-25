@@ -1,0 +1,32 @@
+body {
+	background: #141414;
+	color: #ffffff;
+}
+
+.movie-app > .row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+	
+}
+.tt{
+	background-color: rgb(12, 13, 14);
+	color: white;
+	width: 100%;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+.tx{
+	background-color: rgb(12, 13, 14);
+	color: white;
+	width: 100%;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+.star{
+	cursor:pointer;
+	transition:color 200ms;
+}
+input[type="radio"]{
+	display:none;
+	
+}
